@@ -186,7 +186,7 @@ void USART1_IRQHandler(void)
 	}
 	
 }
-//作者是Sngels_wyh只在抖音与B站
+
 void USART3_IRQHandler(void)
 {
 	if(USART_GetITStatus(USART3,USART_IT_RXNE)==SET)//如果接受到
@@ -304,5 +304,5 @@ void USART3_IRQHandler(void)
 		
 		USART_ClearITPendingBit(USART3,USART_IT_RXNE);
 	}
-	//作者是Sngels_wyh只在抖音与B站
 }
+
